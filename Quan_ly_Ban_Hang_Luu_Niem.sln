@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quan_ly_Ban_Hang_Luu_Niem", "Quan_ly_Ban_Hang_Luu_Niem\Quan_ly_Ban_Hang_Luu_Niem.csproj", "{ECC5231E-2F00-4377-87DF-268DD2EE3597}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "QuanLyBanHang", "QuanLyBanHang\QuanLyBanHang.vdproj", "{5FE01475-813C-49C9-AED1-18867D73F856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECC5231E-2F00-4377-87DF-268DD2EE3597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC5231E-2F00-4377-87DF-268DD2EE3597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC5231E-2F00-4377-87DF-268DD2EE3597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC5231E-2F00-4377-87DF-268DD2EE3597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE01475-813C-49C9-AED1-18867D73F856}.Debug|Any CPU.ActiveCfg = Debug
+		{5FE01475-813C-49C9-AED1-18867D73F856}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {476F2172-5458-49E0-8E9B-6FF202F9C46F}
+	EndGlobalSection
+EndGlobal
