@@ -11,6 +11,7 @@ using System.Data.SqlClient;
 
 namespace Quan_ly_Ban_Hang_Luu_Niem
 {
+    //tung tiền tỷ
     public partial class F_Chatlieu : Form
     {
         SqlConnection connection;

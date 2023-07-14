@@ -42,16 +42,17 @@ namespace Quan_ly_Ban_Hang_Luu_Niem
                 MessageBox.Show("Mật khẩu phải từ 6 - 24 ký tự, gồm chữ và số");
                 return;
             }
-            else if(id_mk.Text != id_xnmk.Text)
-            {
-                MessageBox.Show("Vui lòng xác nhận mật khẩu chính xác!!");
-                return;
-            }
             else if (!checkout(id_email.Text))
             {
                 MessageBox.Show("Vui lòng nhập địa chỉ email đúng định dạng!!");
                 return;
             }
+            else if(id_mk.Text != id_xnmk.Text)
+            {
+                MessageBox.Show("Vui lòng xác nhận mật khẩu chính xác!!");
+                return;
+            }
+           
             else
             {
                 connection = new SqlConnection(sql);
